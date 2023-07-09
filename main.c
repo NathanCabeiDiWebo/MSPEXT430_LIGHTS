@@ -9,7 +9,6 @@ void init(){
     P1OUT |= BIT3;
     P1OUT &= ~(BIT0 +BIT6); //SET LED1,2 LOW
 }
-
 //LED go brr or not
 void NoBrr(){
     P1OUT |= BIT0;
@@ -18,7 +17,6 @@ void NoBrr(){
     P1OUT |= BIT6;
     P1OUT &= ~(BIT0);
     _delay_cycles(500000);
-
 }
 void GoBrr(){
         P1OUT |= BIT0;
@@ -28,25 +26,17 @@ void GoBrr(){
         P1OUT &= ~(BIT0);
         _delay_cycles(100000);
 }
-
 //main shit
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
-	
-	//setup pins
-	init();
-
-	//LED go BRRR
-	while(1)
-	{
+	init();				//setup pins
+	while(1){			//LED go BRRR
 	    if (P1IN & BIT3){
 	        NoBrr();
 	    }
-
 	    else{
 	        GoBrr();
 	    }
 	}
 }
-
