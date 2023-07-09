@@ -1,4 +1,5 @@
 #include <msp430.h> 
+/*puto el que lo lea xd*/
 
 //Initialize pin and values
 void init(){
