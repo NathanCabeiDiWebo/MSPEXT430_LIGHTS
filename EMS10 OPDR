@@ -1,0 +1,41 @@
+#opdrachten week 1
+#1.16
+a = int(24 * 60 * 60)
+print(a)
+vsco#1.1.7
+b = pow(2,10)
+print(b)
+#1.1.8
+c = pow(2,30000)
+#exceeding limit for integer
+#1.1.9
+pow(3 + 2j, 2)
+#1.1.10
+"wah"
+#1.1.11
+math.sin((0.25 * math.pi))
+#1.1.12
+pow(math.e, j * 0.25 * math.p)
+#1.1.13
+pow(math.e, (math.pi *1j)) + 1
+"het geeft een hele kleine getal, kan zijn een computer bug ofzo"
+#1.1.14
+x = """1.input geven
+2.output geven
+3.rekenen
+4.instructie uitvoeren op conditie
+5.herhalen """
+#1.1.15
+"hallo wereld" of print("hallow wereld")
+#1.1.16
+2.5 * 2
+#1.1.17
+"hier heb je twee variabelen. Bij het laatste getal wordt het verm."
+#1.1.18
+"type: complex"
+#1.1.19
+'END Of life'
+#1.1.20
+'-+-+-+-+3 geeft 3 en -+-+-+-+-+3 geeft -3'
+#1.1.21
+'geeft invalid syntax'
