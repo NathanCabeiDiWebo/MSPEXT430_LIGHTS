@@ -1,6 +1,6 @@
 #opdrachten week 1
-#1.16
-a = int(24 * 60 * 60)
+#1.1.6
+s_in_etmaal = int(24 * 60 * 60)
 print(a)
 vsco#1.1.7
 b = pow(2,10)
@@ -39,3 +39,10 @@ x = """1.input geven
 '-+-+-+-+3 geeft 3 en -+-+-+-+-+3 geeft -3'
 #1.1.21
 'geeft invalid syntax'
+#1.1.22
+'s_in_jaar = s_in_etmaal * 365'
+'s_in_jaar'
+#1.1.23
+'return en seconden/jaar. return is een commando en de andere is een berekening'
+#1.1.24
+'variabele naam: potoshi_catoshi'
